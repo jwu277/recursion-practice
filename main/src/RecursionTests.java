@@ -108,4 +108,24 @@ public class RecursionTests {
         assertEquals(91, Recursion.McCarthy91(24));
     }
 
+    @Test
+    public void fib1() {
+        assertEquals(1, Recursion.fibonacci(1));
+    }
+
+    @Test
+    public void fib2() {
+        assertEquals(1, Recursion.fibonacci(2));
+    }
+
+    @Test
+    public void fib3() {
+        assertEquals(2, Recursion.fibonacci(3));
+    }
+
+    @Test
+    public void fib4() {
+        assertEquals(5, Recursion.fibonacci(5));
+    }
+
 }
